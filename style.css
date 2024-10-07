@@ -1,0 +1,137 @@
+* {
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color:black;
+}
+
+/*stilizare pagina... */
+.page-container{
+    /*width: 480px;*/
+    max-width: 100%;
+    padding: 30px;
+}
+
+/* Stilizare pentru cover */
+
+header {
+    background-image: url('./images/cover.jpg');
+    height: 480px;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+/* Stilizare pentru text */
+
+.profile-details h1 {
+    font-size: 32px;
+    color:darkorange; /* Schimbăm culoarea textului */
+    margin-bottom: 16px;/* Spațiu deasupra textului */
+}
+
+
+.titlu-proiect h2 {
+    font-size: 20px;
+    color:black;
+    margin: 5px 0; /* Spațiu între paragrafe */
+    text-align: center;
+}
+
+.info-section p {
+    color:darkorange;
+    margin: 5px;
+}
+
+
+
+h2 {
+    font-size: 25px;
+    color:black; /* Schimbăm culoarea textului */
+    text-align: center;
+    margin-top: 50px; /* Spațiu deasupra textului */
+}
+
+.tags-1  span {
+    font-size: 18px;
+    background-color:red;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.tags-2 span {
+    font-size: 18px;
+    background-color:rgb(12, 152, 187);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/*Stilizare proiect*/
+
+.proiect {
+    text-align: center;
+    font-size: 16px;
+    background-color:bisque;
+    border-radius: 5px;
+    /*margin: 20px 0; /* Spațiu între secțiuni */
+    margin-bottom: 20px;
+    position: relative;
+}   
+
+.proiect img {
+    max-width: 100%;
+}
+
+.proiect .titlu-proiect  {
+    padding:16px;
+    color:black
+}
+
+.proiect-details {
+    position: absolute;
+}
+
+.proiect-details .btn-outline {
+    text-align: center;
+    text-decoration:underline;
+    color: rgb(12, 152, 187);
+    padding: 30px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.proiect-details .btn-outline:hover {
+    color: rgb(12, 152,187);
+    background-color: darkblue;
+}
+
+footer.copyright {
+    color:aliceblue;
+}
+
+/*Media Query --aceasta conditie se poate accesa numai daca brouserul este 
+altul decat cel prestabilit : open with:live server( brauserul Microsoft Edge) sau Google Chrome.
+Pentru alt brouser se activeaza aceasta conditie Media Query!
+@media screen and (min-width: 768px) {
+    .proiect {
+        width: 48%
+    }
+}*/
+
+/* pentru font-size am folosit valoarea brouserului - medium
+daca fontul se modifica mai mare sau mai mic decat este el actual atunci,
+se seteaza font-siz ul brouser ului ori alternativ se face conversia 
+din pixeli in rem.*/
+
+
+
+
+
+
+

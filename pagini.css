@@ -1,0 +1,322 @@
+/*  stiluri implicite */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* Stiluri generale pentru pagina */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    color:black;
+    margin: 40px;
+    
+}
+
+.cuprins-page{
+    background-color:rgb(163, 250, 246);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.bibliografie-page {
+    background-color: rgb(163, 250, 246);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.introducere {
+    background-color:rgb(163, 250, 246);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.capitole {
+    background-color:rgb(163, 250, 246);
+    padding: 20px;
+    margin-bottom: 10px; 
+}
+    
+.main-cuprins p {
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.main-bibliografie p {
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-introducere p {
+    max-width: 800px;
+    word-wrap: break-word;
+    margin-bottom: 10px; 
+}
+.main-capitolul1 p {
+    max-width: 800px;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.main-capitolul2 p {
+    max-width: 800px;
+    word-wrap:break-word;
+    margin-bottom: 10px;
+}
+.main-capitolul3 p {
+    max-width: 800px;
+    word-wrap:break-word;
+    margin-bottom: 10px;
+}
+
+.main-capitolul3 h3 {
+    color:darkorange;
+}
+
+.main-cuprins h1 {
+text-align: center;
+margin-bottom: 30px;
+}
+.main-bibliografie h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.header-cuprins {
+    text-align:left;
+    padding: 10px 0;
+}
+
+header a {
+    text-decoration:underline;
+    color:darkorange;
+}
+
+.page-details img {
+    display: block;
+    max-width: 100%;
+    margin: 16px auto;
+    height: auto;
+    transform: rotate(5deg); /* Rotire cu 5 grade */
+    border-radius: 15px;
+}
+
+.imagini-demo {
+    display:inline-block;
+    margin-top: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imagini-demo img {
+    width: 40%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.imagini-demo h3 {
+    font-style: italic;
+    color: darkorange;
+}
+.java-code {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.java-code img {
+    max-width: 50%;
+    height:auto;
+    border-radius: 15px;
+    transform:rotate(5deg);
+}
+.java-code h3 {
+    font-style: italic;
+    color:darkorange;
+    justify-content: space-between;
+}
+.java-code p {
+    max-width: 45%;
+    justify-content: space-between;
+}
+.calculul-mediei {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.calculul-mediei h3 {
+    font-style: italic;
+    color:darkorange;
+}
+
+.main-capitolul4 h3 {
+    color:darkorange;
+}
+.main-capitolul5 h3 {
+    color: darkorange;
+}
+.main-capitolul6 h3 {
+    color:darkorange;
+}
+.calculul-mediei p {
+    max-width: 45%;
+    justify-content: space-between;
+}
+.calculul-mediei img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.main-capitolul3 img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+.exemplu {
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.exemplu img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+.exemplu h4 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.paragrafe {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.paragrafe p {
+    max-width: 300px;
+    margin: 10px;
+}
+.centru {
+    flex: 1; /*ocupa spatiu maxim disponibil pe orizontala*/
+}
+.stanga, .dreapta {
+    flex-basis: calc(50% - 20px); /* Aproximativ jumătate din lățimea containerului, cu spațiu între paragrafe */
+
+}
+.dreapta {
+    text-align: right;
+}
+
+.histograma {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+.histograma h5 {
+    max-width: 350px;
+    margin: 10px;
+    text-align: justify;
+}
+.tendinte {
+    flex: 1;
+}
+.tendinte, .distributii {
+    flex-basis: calc(50% 20px);
+}
+.distributii {
+    text-align: right;
+}
+
+.imagine img {
+    max-width: 80%;
+    height: auto;
+    transform:perspective(1000px) rotateY(10deg); /*sadauga perspectiva si rotatie 3d */
+    filter:grayscale(30%) contrast(120%) brightness(90%); /*aplica filtre de culoare */
+    box-shadow: 0  4px 8px rgba(233, 12, 12, 0.616); /* adauga o umbra sub imagine */
+}
+.intelliJ-logo img {
+border-radius: 15px;
+}
+
+.baza-de-date {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagine1  {
+    text-align: right;
+}
+
+.imagine2 , .imagine2 , .imagine3 {
+    width: 300px;
+}
+.imagine2, .imagine3 {
+    order: -1;
+}
+
+.paragraf {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.paragraf > div {
+margin-bottom: 20px;
+}
+.centru , .stanga , .dreapta {
+    width: 100%;
+}
+.main-capitolul6 img {
+    width: 700px;
+    height: auto;
+    border: 5px solid #f50e0e;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3); /*adauga o umbra */
+}
+
+.main-concluzie h1 {
+    text-align: center;
+}
+.main-concluzie h3 {
+    color: darkorange;
+}
+.imagine1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.imagine1 img {
+    max-width: 100%;
+    width: 600px;
+    height:auto;
+    border-radius: 15px;
+    transform:rotate(5deg);
+}
+
+/* Stiluri pentru butoane */
+.page-details .btn-outline {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px;
+    border: 1px solid darkorange;
+    border-radius: 4px;
+    text-decoration:underline;
+    color: darkorange;
+    margin-bottom: 20px;
+}
+
+.page-details .btn-outline:hover {
+    background-color: blue;
+    color:darkorange;
+}
